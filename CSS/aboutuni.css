@@ -1,3 +1,14 @@
+@media screen and (min-width: 900px){
+    .mainpage h3{
+        transform: translate(268%,340%) !important;
+    }
+    .mainpage h1{
+        transform: translate(75%,90%) !important;
+    }
+    .mainpage button{
+        transform: translate(-55%,-35%) !important;
+    }
+}
 *{
     padding: 0;
     margin:0;
