@@ -9,6 +9,9 @@ nav{
 }
 .logo{
     padding: 10px 3%;
+    margin-top: -10px;
+    padding-bottom: 80px;
+    margin-left: 20px;
 }
 nav ul{
     padding: 0;
