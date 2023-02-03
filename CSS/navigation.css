@@ -1,0 +1,103 @@
+.dropdown{
+    margin: 0 auto;
+}
+nav{
+    height: 90px;
+    background-color: rgb(167, 64, 64);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    align-items: center;
+}
+.logo{
+    padding: 10px 3%;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 25%;
+}
+nav ul li{
+    background-color: rgb(167, 64, 64);
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+}
+nav ul li a{
+    display: block;
+    padding: 15px 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+    font-family: platino;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    display: inline-block;
+    color: #D3D3D3;
+}
+nav ul ul{
+    position: absolute;
+    top: 90px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+nav ul ul li{
+    width: 180px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+nav ul ul li a{
+    font-size: 16px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -10%;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+footer{
+    background-color: rgb(167, 64, 64);
+    padding: 35px 3%;
+}
+footer ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 22%;
+    padding: 0 18px;
+}
+.footer-col h1{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    color: white;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.footer-col ul li a:hover{
+    padding-left: 8px;
+    color: #D3D3D3;
+}
+.footer-col ul li{
+    color: white;
+}
+
+i{
+    color: white;
+}
